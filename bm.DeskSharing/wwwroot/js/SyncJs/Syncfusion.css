@@ -1,0 +1,98 @@
+﻿.e-content {
+    height: unset !important;
+}
+
+.e-headercelldiv, .e-rowcell {
+    text-align: left !important;
+}
+
+.e-tbar-btn {
+    background-color: #002a5c !important;
+    border-radius: 0.25rem !important;
+}
+
+.e-tbar-btn-text, .e-btn-icon {
+    color: #fff !important;
+}
+
+.e-currentitem {
+    background: #002A5C !important;
+}
+
+.e-table {
+    width: 100% !important;
+}
+
+#Grid_content_table {
+    min-height: 425px !important;
+}
+
+.e-check {
+    background-color: #002A5C !important;
+}
+
+.e-input-group {
+    border-color: #002A5C !important;
+}
+
+.e-grid .e-headercelldiv {
+    font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.e-grid .e-row.e-altrow {
+    background-color: #f2f2f2 !important;
+}
+
+.e-btn.e-flat.e-primary, .e-css.e-btn.e-flat.e-primary {
+    color: #002A5C !important;
+}
+
+.e-grid .e-filterbarcell .e-input-group.e-input-focus::after,
+.e-grid .e-filterbarcell .e-input-group.e-input-focus::before {
+    background-color: #002A5C !important;
+}
+
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::before,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::before {
+    background: #002A5C !important;
+}
+
+.e-input-group:not(.e-float-icon-left):not(.e-float-input)::after,
+.e-input-group.e-control-wrapper:not(.e-float-icon-left):not(.e-float-input)::after {
+    background: #002A5C !important;
+}
+
+.e-dropdownbase .e-list-item.e-active, .e-dropdownbase .e-list-item.e-active.e-hover,
+.e-btn.e-flat.e-primary:hover {
+    color: #002A5C !important;
+}
+
+.e-btn.e-flat.e-primary:active {
+    background-color: rgba(0, 42, 92,0.24) !important;
+}
+
+.e-btn.e-flat.e-primary:hover {
+    background-color: rgba(0, 42, 92,0.04) !important;
+}
+
+.e-btn.e-flat.e-primary:active {
+    color: #002A5C !important;
+}
+
+.e-grid .e-filtered::before {
+    color: #ff2828 !important;
+}
+
+.e-grid .e-gridheader .e-sortfilter .e-rightalign .e-headercelldiv {
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.e-lib.e-grid .e-icons:not(.e-btn-icon) {
+    color: #fff !important;
+}
+
+.e-lib.e-grid .e-gridheader .e-icons:not(.e-icon-hide):not(.e-check):not(.e-stop):not(.e-icon-reorderuparrow):not(.e-icon-reorderdownarrow) {
+    color: #000 !important;
+}
