@@ -7,6 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="wwwroot\bm-template\myown\css\" />
     <Folder Include="wwwroot\js\SyncJs\" />
   </ItemGroup>
 
