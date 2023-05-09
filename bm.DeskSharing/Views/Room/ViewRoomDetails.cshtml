@@ -1,5 +1,6 @@
-﻿<head>
+﻿@model bm.DeskSharing.Models.Room
 
+<head>
     <title>EJ2 Diagram</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,39 +10,44 @@
     <script src="~/js/SyncJs/ej2.min.js"></script>
 
 </head>
+@{
+    //var room = ViewBag.Message;
+}
 <h1>Create Room and Place Desks here</h1>
+
 <div class="col-5">
     <!-- Building ID Dropdown -->
     <div class="form-outline col">
         <label class="form-label">Building ID :</label>
-        <input type="text" id="cmbBID" class="form-control">
+        <input type="text" id="cmbBID" class="form-control" disabled="disabled" value="@Model.RID">
     </div>
 
     <!-- Floor ID Dropdown -->
     <div class="form-outline col">
         <label class="form-label">Floor ID :</label>
-        <input type="text" id="cmbFID" class="form-control">
+        <input type="text" id="cmbFID" class="form-control" disabled="disabled" value="@Model.fkFID">
     </div>
 
     <!-- Room Code-->
     <div class="form-outline col">
         <label class="form-label">Room Code :</label>
-        <input type="text" id="txtRCode" class="form-control" />
+        <input type="text" id="txtRCode" class="form-control"  disabled="disabled" value="@Model.RCode"/>
     </div>
 
     <!-- Room Name-->
     <div class="form-outline col">
         <label class="form-label">Room Name :</label>
-        <input type="text" id="txtRName" class="form-control" />
+        <input type="text" id="txtRName" class="form-control" disabled="disabled" value="@Model.RName"/>
     </div>
 
     <!-- Room Description-->
     <div class="form-outline col">
         <label class="form-label">Room Description :</label>
-        <input type="text" id="txtRDesc" class="form-control" />
+        <input type="text" id="txtRDesc" class="form-control" disabled="disabled" value="@Model.RDesc"/>
     </div>
 
-    <textarea id="jsontxt" cols="50" rows="6" placeholder="Json Code for the Diagram"></textarea>
+    <textarea id="jsontxt" cols="50" rows="6" placeholder="Json Code for the Diagram">@Model.DiagramJson</textarea>
+
     <br /><button asp-controller="Room" asp-action="SaveRoom" onclick="saveDia()" class="btn btn-primary">Save</button>
    <button onclick="loadDia()">Load</button>
 </div>
@@ -75,4 +81,4 @@
             </div>
         </div>
 
-<script src="~/bm-template/myown/js/js_RoomController_create.js"></script>
+<script src="~/bm-template/myown/js/js_RoomController_details.js"></script>

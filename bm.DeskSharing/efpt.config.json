@@ -1,0 +1,53 @@
+﻿{
+   "CodeGenerationMode": 3,
+   "ContextClassName": "BmDeskSharingDBContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "bm.DeskSharing",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "[dbo].[Building]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Desk]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Floor]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Room]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": "BMINP5469-2302.BmDeskSharing",
+   "UncountableWords": null,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSchemaFolders": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
